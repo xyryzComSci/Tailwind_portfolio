@@ -1,0 +1,222 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Tailwind Portfolio</title>
+  </head>
+  <body class="font-nunito">
+
+    <!-- into section -->
+    <section class="h-1/3 lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden">
+      <!-- navbar -->
+      <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+
+          <div class="flex items-center gap-2 ">
+            <img class="w-8" src="./img/logo.png" alt="Logo" />
+            <span class="text-2xl font-bold text-indigo-900 dark:text-white">Xyryz Patagnan</span
+            >
+          </div>
+
+          <ul class="hidden md:flex space-x-10 text-gray-600 dark:text-gray-100 font-bold text-sm uppercase">
+            <li class="hover:text-gray-500 ">
+              <a href="#">home</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#me">me</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#resume">resume</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#works">works</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#contact">contact</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+
+      <!-- intro content -->
+      <div class="absolute top-1/3 left-10  sm:left-15 md:left-15  lg:left-15 xl:left-15 flex-col">
+        <div class="xl:text-7xl font-bold text-xl sm:text-4xl md:text-6xl mb-1">
+          <p class="text-gray-600">Making Solutions;</p>
+          <p class="text-red-500">Making Differences!</p>
+        </div>
+
+        <div class="relative  flex-col h-fit" >
+          <h1 class=" font-bold text-indigo-600 mb-1 text-xl">Hi, Xy here!</h1>
+          <p class="text-indigo-900 hidden md:flex mb-1 w-1/2">
+            I'm Xyryz Patagnan. A 3rd year Computer Science Student at Visayas State University. Aspiring Data Scientist.
+          </p>
+          <a class="my-3 bg-indigo-600 text-white px-3 py-2 rounded-md font-semibold w-fit" href="#contact"> Hire Me </a>
+        </div>
+
+      </div>
+
+      <!-- image -->
+      <img class="absolute bottom-0 right-0 w-auto h-5/6 object-cover" src="./img/man.png" alt="Xyryz Patagnan"/>
+
+      <!-- circle -->
+      <div class="hidden lg:block absolute -bottom-1/4 right-0 -mr-1/2 w-big h-big bg-indigo-900 rounded-full -z-10"></div>
+
+    </section>
+
+    <!-- me -->
+    <section id="me" class="py-40 dark:bg-slate-900">
+      <div class="w-5/6 mx-auto container  flex-col items-start inline-flex">
+        <h1 style="margin-top: 5rem;" class="text-indigo-600 font-bold mb-1 text-xl text-center">ABOUT ME</h1>
+        <p class="md:text-xl text-indigo-900 font-semibold sm:text-sm">
+          A highly motivated computer science student with a strong passion to master the magic language of data through analysis and machine learning. I'm eager to apply my technical skills and problem-solving abilities to extract meanings and valuable insights from complex datasets. Through my coursework and personal projects, I've gained proficiency in Python and R, and data science tools like NumPy, Tensorflow, Pandas, and many more. I'm particularly interested in exploring the applications of data science in Medicine and Healthcare. My goal is to contribute to cutting-edge research and develop innovative solutions to real-world challenges... or simply to continue growing as a developer and problem solver and hope to a create a <span class="text-red-500 font-bold"> DIFFERENCE</span> one <span class="text-red-500 font-bold"> SOLUTION</span> at a time.
+        </p>
+      </div>
+    </section>
+
+    <!-- resume -->
+    <section id="resume" class="px-10 dark:bg-slate-900 ">
+      
+      <div class="w-5/6 mx-auto container flex flex-col items-start gap-5">
+
+        <h1 style="margin-top: 5rem;" class="text-indigo-600 font-bold mb-1 text-xl text-center">WHY HIRE ME?</h1>
+        <div class="my-auto flex flex-col ">
+          <h1 class="text-3xl font-bold text-indigo-900">
+            Education
+          </h1>
+          <p class="text-gray-600 p-2">
+            <strong class="text-xl">Visayas State University, Baybay City, Philippines</strong>
+            <br>
+            • Bachelor of Science in Computer Science (In Progress). Expected to Graduate in 2026
+          </p>
+        </div>
+
+        <div class="my-auto flex flex-col ">
+          <h1 class="text-3xl font-bold text-indigo-900">
+            Experience
+          </h1>
+          <p class="text-gray-600 p-2 ">
+            <strong class="text-xl">HardvardX’s Completion in Data Science: R Basics edx </strong>
+            <br>
+            • Executed a series of assessments employing statistical techniques to identify trends within datasets; developed 10+ interactive visualizations in R, enabling real-time data interpretation and improving reporting efficiency by 25%.
+            <br>
+            <strong class="text-xl">Skillsforall’s Introduction to Data Science – Cisco Networking Academy  </strong>
+            <br>                                           
+            •	Completed a rigorous data science certification program, dedicating 300 hours to mastering concepts and tools, which directly contributed to the successful deployment of AI solutions that enhanced data processing efficiency across departments.
+            <br>
+            •	Explored data science frameworks and tools, developing a personal repository of over 100 resources; this initiative improved knowledge sharing across teams and established a go-to 
+            reference for ongoing training and collaboration.
+          </p>
+        </div>
+
+        <div class="my-auto flex flex-col mb-1">
+          <h1 class="text-3xl font-bold text-indigo-900 ">Skills</h1>
+          <p class="text-gray-600 p-2">
+            •	<strong class="text-xl">Programming Languages: </strong> C, C++, C#, Java, Javascript, Nuxt, Vue.js
+            <br>
+            •	<strong class="text-xl">Data Science Tools: </strong>R, Python, Excel, Jupyter, Matlab, Numpy, Tensorflow
+            <br>
+            •	<strong class="text-xl">Database: </strong>MySql, Firebase, Excel, SQLite, PostgreSQL, Firebase
+          </p>
+        </div>
+        
+
+        
+      <a  class=" bg-indigo-600 text-white px-3 py-2 rounded-md font-semibold w-fit" href="./assets/Resume.pdf" download="">Resume</a>
+
+      </div>
+    </section>
+      
+
+
+
+    <!-- works -->
+    <section id="works" class="py-40 dark:bg-slate-900">
+      <div class="container mx-auto">
+
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-indigo-600 text-xl font-bold">WORKS & PROJECTS</h1>
+          <p class=" text-gray-900">
+            This is a list of my current and previous projects or works i've made or been apart of.
+          </p>
+        </div>
+
+
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+          <div class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
+            <img src="./img/no-img.png" alt="Plant Botanical Information System"/>
+            <p class="m-5 text-indigo-600 font-bold">Plant Botanical Information System</p>
+          </div>
+
+          <div class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
+            <img src="./img/no-img.png"  alt="Venue Booking System"/>
+            <p class="m-5  text-indigo-600 font-bold">Venue Booking System</p>
+          </div>
+
+          <div class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
+            <img src="./img/no-img.png"  alt="Study Notes to Flashcard Generator"/>
+            <p class="m-5  text-indigo-600 font-bold">Study Notes to Flashcard Generator</p>
+          </div>
+
+          <div class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
+            <img src="./img/no-img.png"  alt="University Attendance Management System"/>
+            <p class="m-5 text-indigo-600 font-bold">University Attendance Management System</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="dark:bg-slate-900">
+      <div class="container mx-auto">
+
+        <div class="flex flex-col gap-2 items-center">
+          <h1 class="text-indigo-600 font-bold text-xl">CONTACT</h1>
+          <h1 class="text-3xl dark:text-white">Have a Question?</h1>
+
+        </div>
+
+        <form class="mt-5 p-8 flex flex-col gap-5 items-center">
+
+          <input class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white" type="text" placeholder="Name Surname"/>
+
+          <input class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white" type="email" placeholder="Email"/>
+
+          <textarea class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white" cols="30" rows="10" placeholder="Message..."></textarea>
+
+          <button class="w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer">
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+
+    
+        <!-- footer -->
+        <section class="w-full bg-gray-800">
+          <div class="container mx-auto py-5 flex items-center justify-between">
+            <span class="hidden md:block font-medium text-white">
+              © 2024 Design by Xyryz Patagnan.
+            </span>
+            <div class="flex gap-2 items-center">
+
+              <a href="https://www.facebook.com/profile.php?id=100069229580339" target="_blank">              
+                <img class="w-6 cursor-pointer " src="./img/facebook.png" alt="Facebook Logo"/>
+              </a>
+              <a href="https://github.com/xyryzComSci" target="_blank">              
+                <img class="w-5 cursor-pointer " src="./img/github.png" alt="Github Logo"/>
+              </a>
+            </div>
+          </div>
+        </section>
+
+  </body>
+</html>
